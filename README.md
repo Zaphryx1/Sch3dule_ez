@@ -29,7 +29,7 @@
 
  * Repository: https://github.com/Zaphryx1/Sch3dule_ez
 
- 
+ ![image](https://user-images.githubusercontent.com/95585542/158044151-32778792-2dce-430d-97d2-95926a357032.png)
 
 
 
