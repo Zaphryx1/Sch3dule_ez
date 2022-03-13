@@ -1,3 +1,9 @@
+//set the time
+
+var rightNow = moment().format("hh:mm");
+
+console.log(rightNow);
+
 //load what local storage when page loads up 
 function load() {
 
@@ -20,12 +26,11 @@ $(".saveBtn").click(function() {
     localStorage.setItem($(this).parent().attr("id"), $(this).siblings(".description").val());
 });
 
-//keep information updated in specific hour
 
-//past hour 
+for (var i = 0; i < 5; i++) {
+    $("#" + [i] + " .row").addClass(".past");
+}
 
-//future hour
 
-//
 
 load();
